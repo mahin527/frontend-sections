@@ -1,8 +1,8 @@
+// ====== Header 1 =====
 const navmenuBtn = document.getElementById('navmenuBtn');
 const navmenuBtnIcon = document.querySelector('#navmenuBtn i');
-console.log(navmenuBtnIcon);
-
 const navmenu = document.getElementById('navmenu');
+
 const showNavmenu = () => {
   if (navmenu.classList.contains('left-[-100%]')) {
     navmenu.classList.remove('left-[-100%]');

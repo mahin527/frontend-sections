@@ -33,6 +33,14 @@
 </div>
 ```
 
+- menu center
+
+```html
+<div class="italic font-semibold text-2xl lg:text-3xl md:absolute md:left-1/2 lg:left-3/5 xl:left-1/2 md:transform md:-translate-x-1/2">
+  <a href="#">demo</a>
+</div>
+```
+
 - sub menu
 
 ```html
@@ -46,7 +54,17 @@
 - overlay
 
 ```html
+<div id="menu-overlay" class="fixed inset-0 bg-black/40 backdrop:blur-sm z-30 hidden"></div>
+```
 
+- Escape key to close menu
+
+```javascript
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeMenuFunction();
+  }
+});
 ```
 
 ## 📂 Files Included
