@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ===== tailwind ===== -->
     <link rel="stylesheet" href="/src/output.css" />
-    <title>Document</title>
+    <title>Hero Banner 3</title>
   </head>
   <body>
     <!-- ======= Hero Banner 3 -->
@@ -14,9 +14,21 @@
       style="background-image: url('/image/banner-3.jpeg'); height: 550px"
     >
       <!-- overlay -->
-      <div class="bg-black/60 absolute inset-0 z-0 block lg:hidden"></div>
+      <div class="bg-black/50 absolute inset-0 z-5 block lg:hidden"></div>
+      <!-- leaf -->
+      <div class="absolute -top-4 -right-8 z-5">
+        <img src="/image/leaf2.png" alt="" class="max-h-28 md:max-h-40 rotate-180" />
+      </div>
+      <!-- leaf 2 -->
+      <div class="absolute -bottom-4 left-0 lg:left-1/3 z-0">
+        <img src="/image/leaf1.png" alt="" class="max-h-30" />
+      </div>
+      <!-- leaf 3-->
+      <div class="absolute -top-4 left-0 lg:left-1/3 z-0">
+        <img src="/image/leaf3.png" alt="" class="max-h-35 rotate-90" />
+      </div>
       <!-- content -->
-      <div class="absolute top-1/2 lg:top-auto lg:left-1/2 z-10">
+      <div class="absolute top-1/3 lg:top-auto lg:left-1/2 z-10">
         <div class="text-white">
           <h1 class="text-2xl md:text-3xl py-4 font-bold text-center lg:text-left">Grow Naturally, Succeed Wildly</h1>
           <p>Sustainable solutions rooted in nature's balance. Let's build a greener future together.</p>
