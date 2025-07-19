@@ -17,7 +17,7 @@
 ## 📸 Preview
 
 ![Hero-Banner-1 Preview](Screenshots/hero-1.png)
-![Header-2 Preview](Screenshots/header-2.png)
+![Header-2 Preview](Screenshots/hero-2.png)
 
 ---
 
